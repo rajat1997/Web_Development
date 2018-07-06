@@ -1,0 +1,150 @@
+/* CSS Document */
+
+
+body
+
+{
+	background-color: rgba(255,255,255,1);
+	font-family: "MS Serif", "New York", serif;
+}
+
+
+#logo
+{
+	position:fixed;
+	width:50px;
+	height:50px;
+	left:50px;
+	top:0px;
+	
+}
+#header
+{
+	position: absolute;
+	width: 1366px;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+	background: rgba(0,0,0,1);
+	font: Arial, Helvetica, sans-serif;
+	color: rgba(255,255,255,1);
+	z-index: 1;	
+}
+
+#main
+{
+	position: absolute;
+	width: 1366px;
+	height: 668px;
+	top: 112px;
+	left: -4px;
+	font: Arial,Helvetica, sans-serif;
+	color: rgba(0,0,0,1);
+	z-index: 1;
+	background-attachment: scroll;
+	background-color: rgba(255,255,255,1);
+	background-repeat: repeat;
+	font-family: "Comic Sans MS", cursive;
+
+}
+
+	
+#footer
+{
+	position: absolute;
+	width: 1366px;
+	height: 400px;
+	top: 668px;
+	left: 0px;
+	background: rgba(216,216,216,1);
+	font: Arial,Helvetica, sans-serif;
+	color: rgba(0,0,0,1);
+	z-index: 1;
+	font-size: 18px;
+}
+#extras{
+	position:absolute;
+	width:500px;
+	top:25px;
+	right:5px;
+	font-family:"Comic Sans MS", cursive;
+	color:black;
+	z-index:2;
+	}
+#Aboutus{
+	position:absolute;
+	width:500px;
+	top:25px;
+	left:10px;
+	font-family:"Comic Sans MS", cursive;
+	color:black;
+	z-index:2;
+	}
+#Contactus{
+	position:absolute;
+	width:300px;
+	top:300px;
+	left:10px;
+	font-family:"Comic Sans MS", cursive;
+	color:black;
+	z-index:2;
+	}
+
+#social
+{   position:absolute;
+	width:500px;
+	top:280px;
+	left:425px;}
+
+
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+	float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}	
+
+p{
+	font-family:Comic Sans MS, cursive;
+}
+
+
+#main #footer p {
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive;
+	text-align: center;
+}
+#header h2 center a strong {
+	font-weight: bold;
+}
+#header h2 center a strong {
+	font-family: "Comic Sans MS", cursive;
+}
+#header h2 center a strong {
+	font-family: "Comic Sans MS", cursive;
+}
+#header h2 center strong a {
+	font-family: "Comic Sans MS", cursive;
+}
+#footer center p {
+	font-family: "Comic Sans MS", cursive;
+	font-weight: bold;
+}
